@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: lightgrey;
+}
+.box{
+  width: 1500px;
+  height: 1000px;
+  margin:  0 auto;
+  text-align: center;
+}
+.product{
+  display: inline-block;
+  background-color: white;
+  width: 320px;
+  height: 320px;
+  margin: auto 10px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.secondrow{
+  margin-top: 10px;
+}
+.ipad{
+  background-image: url("../img/ipad.jpg");
+  background-size: 250px 250px;
+}
+.iphone{
+  background-image: url("../img/iphone.jpg");
+  background-size: 150px 150px;
+}
+.beats{
+  background-image: url("../img/beats.jpg");
+    background-size: 250px 250px;
+}
+.number{
+  position: absolute;
+  right: 0;
+}
+.green{
+  background-color: green;
+  cursor: no-drop;
+}
+.red{
+  background-color: red;
+  cursor: no-drop;
+}
+.one:hover .heart{
+  opacity: 1;
+}
+.two:hover .heart{
+  opacity: 1;
+}
+.three:hover .heart{
+  opacity: 1;
+}
+.four:hover .heart{
+  opacity: 1;
+}
+.five:hover .heart{
+  opacity: 1;
+}
+.six:hover .heart{
+  opacity: 1;
+}
+.heart{
+   opacity: 0;
+   position: absolute;
+   color: red;
+   font-size: 40px;
+   left: 146px;
+   bottom: 0;
+}
+em{
+  color: red;
+  font-size: 100px;
+}
+a{
+  font-family: sans-serif;
+}
+a:hover{
+  background-color: coral;
+}
